@@ -20,11 +20,10 @@ SELECT person_id, fname, lname, birth_date FROM person;
 ```
 
 -- Output:
--- +-----------+---------+--------+------------+
+
 -- | person_id | fname   | lname  | birth_date |
--- +-----------+---------+--------+------------+
 -- |    1      | William | Turner | 1972-05-27 |
--- +-----------+---------+--------+------------+
+
 
 ### Select using WHERE
 ```  sql
@@ -32,11 +31,10 @@ SELECT person_id, fname, lname, birth_date FROM person WHERE person_id = 1;
 ```
 
 -- Output:
--- +-----------+---------+--------+------------+
+
 -- | person_id | fname   | lname  | birth_date |
--- +-----------+---------+--------+------------+
 -- |    1      | William | Turner | 1972-05-27 |
--- +-----------+---------+--------+------------+
+
 
 ### Select using WHERE on lname
 ```  sql
@@ -44,11 +42,10 @@ SELECT person_id, fname, lname, birth_date FROM person WHERE lname = 'Turner';
 ```
 
 -- Output:
--- +-----------+---------+--------+------------+
+
 -- | person_id | fname   | lname  | birth_date |
--- +-----------+---------+--------+------------+
 -- |    1      | William | Turner | 1972-05-27 |
--- +-----------+---------+--------+------------+
+
 
 ### Insert favorite foods for William
 ```  sql
@@ -62,13 +59,12 @@ SELECT food FROM favorite_food WHERE person_id = 1 ORDER BY food;
 ```
 
 -- Output:
--- +---------+
+
 -- | food    |
--- +---------+
 -- | cookies |
 -- | nachos  |
 -- | pizza   |
--- +---------+
+
 
 ### Insert: Susan Smith (with address)
 ```  sql
@@ -85,12 +81,11 @@ VALUES
 SELECT person_id, fname, lname, birth_date FROM person;
 ```
 -- Output:
--- +-----------+---------+--------+------------+
+
 -- | person_id | fname   | lname  | birth_date |
--- +-----------+---------+--------+------------+
 -- |    1      | William | Turner | 1972-05-27 |
 -- |    2      | Susan   | Smith  | 1975-11-02 |
--- +-----------+---------+--------+------------+
+
 
 
 ### Update William Turner's address information
