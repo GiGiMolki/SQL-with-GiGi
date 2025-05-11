@@ -42,9 +42,9 @@ CREATE TABLE favorite_food (
 
 -- DESCRIBE person;
 -- Output:
--- +-------------+----------------------+------+-----+---------+------+
+
 -- | Field       | Type                 | Null| Key | Default | Extra |
--- +-------------+----------------------+-----+-----+---------+-------+
+-- |-------------|----------------------|-----|-----|---------|-------|
 -- | person_id   | smallint(5) unsigned | NO  | PRI | 0       |       |
 -- | fname       | varchar(20)          | YES |     | NULL    |       |
 -- | lname       | varchar(20)          | YES |     | NULL    |       |
@@ -55,16 +55,16 @@ CREATE TABLE favorite_food (
 -- | state       | varchar(20)          | YES |     | NULL    |       |
 -- | country     | varchar(20)          | YES |     | NULL    |       |
 -- | postal_code | varchar(20)          | YES |     | NULL    |       |
--- +-------------+----------------------+-----+-----+---------+-------+
+
 
 -- DESCRIBE favorite_food;
 -- Output:
--- +-----------+----------------------+-----+-----+---------+-------+
+
 -- | Field     | Type                 | Null| Key | Default | Extra |
--- +-----------+----------------------+-----+-----+---------+-------+
+-- |-----------|----------------------|-----|-----|---------|-------|
 -- | person_id | smallint(5) unsigned | NO  | PRI | 0       |       |
 -- | food      | varchar(20)          | NO  | PRI | NULL    |       |
--- +-----------+----------------------+-----+-----+---------+-------+
+-- |-----------|----------------------|-----|-----|---------|-------|
 
 -- 🧩 NULL means: Unknown / Not applicable / No value provided
 -- By default, columns allow NULL unless specified with NOT NULL
