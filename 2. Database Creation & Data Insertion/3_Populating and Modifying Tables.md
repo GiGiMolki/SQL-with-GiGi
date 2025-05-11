@@ -22,7 +22,7 @@ SELECT person_id, fname, lname, birth_date FROM person;
 -- Output:
 
 -- | person_id | fname   | lname  | birth_date |
--- |-----------|---------|--------+------------|
+-- |-----------|---------|--------|------------|
 -- |    1      | William | Turner | 1972-05-27 |
 
 
