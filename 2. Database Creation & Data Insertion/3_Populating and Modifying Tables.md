@@ -22,6 +22,7 @@ SELECT person_id, fname, lname, birth_date FROM person;
 -- Output:
 
 -- | person_id | fname   | lname  | birth_date |
+-- |-----------|---------|--------+------------|
 -- |    1      | William | Turner | 1972-05-27 |
 
 
@@ -33,6 +34,7 @@ SELECT person_id, fname, lname, birth_date FROM person WHERE person_id = 1;
 -- Output:
 
 -- | person_id | fname   | lname  | birth_date |
+-- |-----------|---------|--------|------------|
 -- |    1      | William | Turner | 1972-05-27 |
 
 
@@ -44,6 +46,7 @@ SELECT person_id, fname, lname, birth_date FROM person WHERE lname = 'Turner';
 -- Output:
 
 -- | person_id | fname   | lname  | birth_date |
+-- |-----------|---------|--------|------------|
 -- |    1      | William | Turner | 1972-05-27 |
 
 
@@ -61,6 +64,7 @@ SELECT food FROM favorite_food WHERE person_id = 1 ORDER BY food;
 -- Output:
 
 -- | food    |
+-- |---------|
 -- | cookies |
 -- | nachos  |
 -- | pizza   |
@@ -83,6 +87,7 @@ SELECT person_id, fname, lname, birth_date FROM person;
 -- Output:
 
 -- | person_id | fname   | lname  | birth_date |
+-- |-----------|---------|--------|------------|
 -- |    1      | William | Turner | 1972-05-27 |
 -- |    2      | Susan   | Smith  | 1975-11-02 |
 
